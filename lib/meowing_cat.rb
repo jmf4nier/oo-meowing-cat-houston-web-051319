@@ -7,9 +7,11 @@ class Cat
   end
   def meow
     puts "meow!"
+  end
   
 end 
 
 Bob = Cat.new 
 Bob.name = "Bob"
 puts Bob.name
+Bob.meow
